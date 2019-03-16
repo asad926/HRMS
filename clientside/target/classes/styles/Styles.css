@@ -1,0 +1,24 @@
+.button {
+    -fx-font-weight: bold;
+}
+#Pane{
+    -fx-background-image: url("../img/hr.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 460 250;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+#dashboard{
+    -fx-background-image: url("../img/encompass.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 900 600;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+#Register{
+    -fx-background-image: url("../img/hr.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 600 400;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="dashboard" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.clientside12.DashboardController">
+   <children>
+      <MenuBar layoutY="-1.0" prefHeight="40.0" prefWidth="900.0" style="-fx-background-color: gray; -fx-font-size: 18;">
+        <menus>
+          <Menu mnemonicParsing="false" text="Employee">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#getRegisteredEmployee" text="Add Employee" />
+                  <MenuItem mnemonicParsing="false" onAction="#loadRegistrationForm" text="Registered Employee" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Department">
+            <items>
+                  <MenuItem mnemonicParsing="false" onAction="#displayDepartmentsDetails" text="Show Details" />
+                  <MenuItem mnemonicParsing="false" onAction="#deptWorkingEmployees" text="Working Employees" />
+            </items>
+          </Menu>
+        </menus>
+         <effect>
+            <DropShadow height="23.97" radius="5.4925" width="0.0" />
+         </effect>
+      </MenuBar>
+      <AnchorPane fx:id="loadScene" layoutX="66.0" layoutY="39.0" prefHeight="372.0" prefWidth="621.0" AnchorPane.bottomAnchor="189.0" AnchorPane.leftAnchor="66.0" AnchorPane.rightAnchor="213.0" AnchorPane.topAnchor="39.0" />
+   </children>
+</AnchorPane>
