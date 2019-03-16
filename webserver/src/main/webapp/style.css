@@ -1,0 +1,100 @@
+body, html {
+    height: 100%;
+}
+.bg {
+    /* The image used */
+    background-image: url("resources/images/Overview.jpg");
+    height: 100%;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:static;
+    background-attachment: fixed;
+}
+
+.bg1{
+     /* The image used */
+    background-image: url("resources/images/encompass.jpg");
+    height: 100%;
+    position:static;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.form {
+    width: 100%;  
+}
+.div-center {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  padding: 1em 2em;
+  display: table;
+}
+
+div.content {
+  display: table-cell;
+  vertical-align: middle;
+}
+.logo{
+    width: auto;
+    height: 200px;
+    background-image: url("resources/images/HR.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200px;
+}
+
+.navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+      width: 100%;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+    .caret-up {
+    width: 0; 
+    height: 0; 
+    border-left: 4px solid rgba(0, 0, 0, 0);
+    border-right: 4px solid rgba(0, 0, 0, 0);
+    border-bottom: 4px solid;
+    
+    display: inline-block;
+    margin-left: 2px;
+    vertical-align: middle;
+}
